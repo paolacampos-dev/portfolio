@@ -1,26 +1,140 @@
 @import "tailwindcss";
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --coffee-bg: #2a1f1a;        /* espresso */
+  --coffee-bg-soft: #3a2a22;   /* mocha */
+  --coffee-text: #f5efe9;      /* latte foam */
+  --coffee-accent: #c0843d;    /* caramel */
+  --coffee-border: #4a3428;    /* roasted bean */
+  --font-body: system-ui, sans-serif;
+  --font-heading: serif;
+  --font-body: system-ui, sans-serif;
+  --font-signature: cursive;
+  margin: 0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+body {
+  background: var(--coffee-bg);
+  color: var(--coffee-text);
+  font-family: var(--font-body);
+  font-weight: 400;
+  letter-spacing: 0.015em;
+  line-height: 1.65;
+  text-shadow: 0 0 0.4px rgba(255, 245, 235, 0.35);
+  min-height: 100vh;
+  background: radial-gradient(
+    circle at center,
+    #3a2a22 0%,
+    #1f1612 65%,
+    #120c09 100%
+  );
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+
+h1{
+  font-weight: 800;
+}
+
+.hero {
+  animation: fadeUp 1.6s ease-out forwards;
+}
+
+
+
+@layer base {
+  a {
+    transition: transform 200ms ease-out, color 200ms ease-out;
+  }
+
+  a:hover {
+    transform: scale(1.05);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --coffee-bg: #1f1612;
+    --coffee-text: #f5e6cf ;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities  {
+  .bg-coffee {
+    background-color: var(--coffee-bg);
+  }
+
+  .bg-coffee-soft {
+    background-color: var(--coffee-bg-soft);
+  }
+
+  .text-coffee {
+    color: var(--coffee-text);
+  }
+
+  .text-coffee-accent {
+    color: var(--coffee-accent);
+  }
+
+  .border-coffee {
+    border-color: var(--coffee-border);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+
+  .font-signature {
+    font-family: var(--font-signature);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
 }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/*
+.signature path {
+  fill: none;
+  stroke: var(--coffee-text);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation:
+    write 3s ease forwards,
+    fillIn 0.8s ease forwards 3s;
+}
+
+@keyframes write {
+  to {
+    stroke-dashoffset: 0;
+  }
+
+
+@keyframes fillIn {
+  to {
+    fill: var(--coffee-text);
+  }
+}*/
