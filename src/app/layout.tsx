@@ -25,14 +25,29 @@ const dancing = Dancing_Script({
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://paolacampos.dev"),
+
   title: "Paola Campos - Portfolio",
-  description: "Full Stack Web Developer",
+  description: "Web Designer & Developer",
+
+  icons:  {
+    icon: "/favicon.png", 
+  }, 
+  
   openGraph:  {
     title: "Paola Campos - Web Dev Portfolio", 
-    description: "Full Stack Web Developer", 
-    url: "", 
+    description: "Web Designer & Developer", 
+    url: "https://paolacampos.dev", 
     siteName: "Paola Campos Portfolio",
-    type: "website"
+    images:   [
+      {
+        url: "/favicon.png", 
+        width: 512, 
+        height: 512,
+        alt: "Paola Campos Logo",
+      },
+    ],
+    type: "website",
   },
   }
 
