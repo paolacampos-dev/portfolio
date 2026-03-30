@@ -16,7 +16,11 @@ export default function Gallery()    {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label={`View ${project.title} on  GitHub`}
-                                className="absolute top-2 right-2 z-20 opacity-70 hover:opacity-100 bg-black/30 p-1 rounded-md backdrop-blur-sm transition"
+                                className="absolute top-2 right-2 z-20 
+                                            opacity-70 hover:opacity-100 
+                                            bg-black/30 p-1 rounded-md backdrop-blur-sm 
+                                            transition-opacity duration-75 ease-out"
+                                title="View Code"
                             >
                             <img src="/github.svg" alt="GitHub" className="w-5 h-5" />
                             </a>
@@ -27,11 +31,12 @@ export default function Gallery()    {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="absolute inset-0 z-10"
+                                title="Live Demo"
                             >
                             <img
                                 src={project.image}
                                 alt={project.alt}
-                                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                                className="w-full h-full object-cover transition-transform duration-150 delay-75 hover:scale-105"
                             />
                             </a>
                     </div>

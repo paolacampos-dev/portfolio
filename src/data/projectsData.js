@@ -6,8 +6,8 @@ const projectsData = [
         alt: "Next app for tracking self employment workload",
         github: "https://github.com/paolacampos-dev/self-employment-tracker",
         live: "https://self-employment-tracker-hazel.vercel.app/",
-        description: "Full-stack app",
-        tech: ["Next", "Clerk", "PostgreSQL"]
+        description: "Freelancer Management App",
+        tech: ["Next.js", "Clerk", "PostgreSQL"]
     },
     {
         id: 2, 
@@ -16,7 +16,7 @@ const projectsData = [
         alt: "React image gallery using Wikimedia API",
         github: "https://github.com/paolacampos-dev/nervous-system-gallery",
         live: "https://nervous-system-gallery.onrender.com/",
-        description: "Interactive Image gallery",
+        description: "Interactive Image Gallery",
         tech: ["REACT", "fetching Wikimedia API"]
     },
     {
@@ -26,7 +26,7 @@ const projectsData = [
         alt: "Vanilla JavaScript image gallery",
         github: "https://github.com/paolacampos-dev/zodiac-gallery",
         live: "https://paolacampos-dev.github.io/zodiac-gallery/",
-        description: "Interactive image gallery",
+        description: "Art Collection Gallery",
         tech: ["vanilla JavaScript"]
     },
     {
@@ -36,7 +36,7 @@ const projectsData = [
         alt: "UI-focused project with JavaScript enhancements",
         github: "https://github.com/paolacampos-dev/the-path-of-life",
         live: "https://paolacampos-dev.github.io/the-path-of-life/",
-        description: "UI-focused landing page",
+        description: "Digital Brand Landing Page",
         tech: ["HTML", "CSS", "JS"]
     },
     {
@@ -55,7 +55,7 @@ const projectsData = [
         alt: "Responsive landing page built with HTML and CSS",
         github: "https://github.com/paolacampos-dev/paths-of-thought" ,
         live: "https://paolacampos-dev.github.io/paths-of-thought/",
-        description: "Responsive layout exploring",
+        description: "Responsive Landing Page",
         tech: ["HTML", "CSS "]
     },
 ];

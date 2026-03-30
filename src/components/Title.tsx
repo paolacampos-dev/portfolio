@@ -19,6 +19,7 @@ export default function Title() {
                 src="/github.svg"
                 alt="GitHub"
                 className="w-6 h-6 opacity-70 hover:opacity-100 transition bg-black/30 p-1 rounded-md backdrop-blur-sm hover:scale-110"
+                title="View GitHub"
             />
             </a>
         </div>
