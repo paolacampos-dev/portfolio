@@ -5,7 +5,7 @@ const projectsData = [
         image: "/SelfTrack.png",
         alt: "Next app for tracking self employment workload",
         github: "https://github.com/paolacampos-dev/self-employment-tracker",
-        live: "https://self-employment-tracker-hazel.vercel.app/",
+        live: "https://selftrack.paolacampos.dev/",
         description: "Freelancer Management App",
         tech: ["Next.js", "Clerk", "PostgreSQL"]
     },
@@ -15,7 +15,7 @@ const projectsData = [
         image: "/GalleryN.png",
         alt: "React image gallery using Wikimedia API",
         github: "https://github.com/paolacampos-dev/nervous-system-gallery",
-        live: "https://nervous-system-gallery.onrender.com/",
+        live: "https://neuroscope.paolacampos.dev/",
         description: "Interactive Image Gallery",
         tech: ["REACT", "fetching Wikimedia API"]
     },
