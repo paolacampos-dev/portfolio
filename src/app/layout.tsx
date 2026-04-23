@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         url: "/favicon.png", 
         width: 512, 
         height: 512,
-        alt: "Paola Campos Logo",
+        alt: "Paola Campos - dev Logo",
       },
     ],
     type: "website",

@@ -6,23 +6,27 @@ export default function About() {
             </h1>
 
             <p className="mb-4">
-                I am a web designer and junior front-end developer focused on building clean, user-centred interfaces with a strong attention to detail.
+                I am a Full-Stack Web Developer focused on building practical, user-focused web applications with strong attention to detail. My work combines clean interface design with solid development, ensuring that applications are both functional and easy to use.
             </p>
 
             <p className="mb-4">
-                My work combines design and development, with experience in technologies such as HTML, CSS, JavaScript, React and Next.js, alongside WordPress for real-world freelance applications. I enjoy creating minimal, structured layouts and refining them through subtle interactions and thoughtful spacing.
+                I have experience building full-stack projects using technologies such as Next.js, React, and PostgreSQL, alongside core web technologies including HTML, CSS, and JavaScript. I also work with WordPress for real-world freelance applications, expanding my ability to deliver complete solutions for different types of clients.
             </p>
 
             <p className="mb-4">
-                Alongside design and layout, my motivation is to understand how applications work end-to-end— from logic and data flow to deployment. While my main professional focus is front-end and UI, I have also solid back-end foundations with Node.js, APIs, and databases.
+                My approach goes beyond interface design — I focus on how applications work end-to-end, from data flow and backend logic to deployment. I am comfortable working across both frontend and backend, including APIs, authentication, and database design.
             </p>
 
             <p className="mb-4">
-                Currently, I am continuing to deepen my skills in front-end development while expanding into WordPress and PHP, with the goal of working as a freelance developer and building practical, high-quality websites for clients.
+                I have a strong interest in integrating AI into web applications to create practical tools that help businesses improve efficiency, automate processes, and make better data-driven decisions.
+            </p>
+
+            <p className="mb-4">
+                Currently, I am expanding my skills in WordPress and PHP while developing tools such as an AI-powered website diagnostics application, with the goal of building scalable, real-world solutions and growing into freelance and professional development roles.
             </p>
 
             <p>
-            More than anything, I am driven by curiosity — understanding how things work, improving them, and turning ideas into functional, well-designed digital experiences.
+                I am driven by curiosity and continuous improvement — understanding how systems work, refining them, and turning ideas into functional, well-structured digital products.
             </p>
         </section>
     );

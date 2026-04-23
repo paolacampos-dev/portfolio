@@ -28,7 +28,7 @@ export default function Hero() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 1 }}
             >
-            Web Designer & Front-End Developer<br />
+            Full-Stack Web Developer<br />
             {/* <span className="opacity-80">UI-focused</span> */}
             </motion.p>
             
