@@ -10,7 +10,7 @@ export default function About() {
             </p>
 
             <p className="mb-4">
-                I have experience building full-stack projects using technologies such as Next.js, React, and PostgreSQL, alongside core web technologies including HTML, CSS, and JavaScript. I also work with WordPress for real-world freelance applications, expanding my ability to deliver complete solutions for different types of clients.
+                I have experience building full-stack projects using technologies such as Next.js, React, and PostgreSQL, alongside core web technologies including HTML, CSS, and JavaScript. I am also expanding my knowledge of WordPress to broaden my ability to deliver complete web solutions.
             </p>
 
             <p className="mb-4">
@@ -22,12 +22,13 @@ export default function About() {
             </p>
 
             <p className="mb-4">
-                Currently, I am expanding my skills in WordPress and PHP while developing tools such as an AI-powered website diagnostics application, with the goal of building scalable, real-world solutions and growing into freelance and professional development roles.
+                Currently, I am expanding my skills in WordPress and PHP while developing tools such as an AI-powered website diagnostics application, with the goal of building scalable, real-world solutions and continuing to grow as a developer.
             </p>
 
             <p>
                 I am driven by curiosity and continuous improvement — understanding how systems work, refining them, and turning ideas into functional, well-structured digital products.
             </p>
+            
         </section>
     );
 }
