@@ -41,7 +41,7 @@ export default function ProjectCard({ project } : {project: Project}) {
             </div>
 
             <div className="text-center mt-2">
-                <p className="text-sm text-[#c7b8a5]/80 truncate">
+                <p className="text-base sm:text-lg text-[#c7b8a5]/85">
                 {project.description}
                 </p>
 

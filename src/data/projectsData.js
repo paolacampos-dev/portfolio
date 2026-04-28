@@ -7,7 +7,7 @@ const projectsData = [
         alt: "Next app for tracking self employment workload",
         github: "https://github.com/paolacampos-dev/self-employment-tracker",
         live: "https://selftrack.paolacampos.dev/",
-        description: "Freelancer Management App",
+        description: "Freelancer Manager",
         tech: ["Next.js", "Clerk", "PostgreSQL"]
     },
     {
@@ -35,7 +35,7 @@ const projectsData = [
     {
         id: 4, 
         title: "Zodiac Gallery",
-         type: "frontend",
+        type: "frontend",
         image: "/Zodiac.png",
         alt: "Vanilla JavaScript image gallery",
         github: "https://github.com/paolacampos-dev/zodiac-gallery",
@@ -52,7 +52,7 @@ const projectsData = [
         alt: "UI-focused project with JavaScript enhancements",
         github: "https://github.com/paolacampos-dev/the-path-of-life",
         live: "https://paolacampos-dev.github.io/the-path-of-life/",
-        description: "Digital Brand Landing Page",
+        description: "Brand Landing Page",
         tech: ["HTML", "CSS", "JS"]
     },
     {
