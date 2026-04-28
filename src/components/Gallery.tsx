@@ -12,7 +12,6 @@ export default function Gallery()    {
             <ProjectSection
                 title="Full-Stack Applications"
                 projects={fullstackProjects}
-                className=""
             />
             <ProjectSection
                 title="Front-End Interfaces"
@@ -25,5 +24,3 @@ export default function Gallery()    {
         </div>
     )
 }
-                
-          
