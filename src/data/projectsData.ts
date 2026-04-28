@@ -1,4 +1,6 @@
-const projectsData = [
+import { Project } from "@/types/project"
+
+const projectsData: Project[] = [
     {
         id: 1, 
         title: "Self-Employment Tracker",
@@ -76,6 +78,17 @@ const projectsData = [
         description: "Custom WordPress Site",
         tech: ["WP", "Gutenberg"]
     },
+    {
+        id: 8, 
+        title: "SitePulse",
+        type: "fullstack",
+        image: "",
+        alt: "",
+        github: "https://github.com/paolacampos-dev/sitepulse",
+        live: "",
+        description: "AI Site Audits",
+        tech: ["Next.js", "PostgreSQL", "AI"]
+    }
 ];
 
 export default projectsData;
