@@ -1,16 +1,5 @@
 import ProjectCard from "@/components/ProjectCard"
-
-type Project = {
-    id: number
-    title: string
-    type: string
-    image?: string
-    alt?: string
-    github?: string
-    live?: string
-    description: string
-    tech: string[]
-}
+import { Project } from "@/types/project"
 
 type ProjectSectionProps = {
     title: string
@@ -27,16 +16,13 @@ export default function ProjectSection({ title, projects } : ProjectSectionProps
           </h2>
           <hr className="mb-2"/>
         </div>
-    
-
-          <div className="flex flex-wrap justify-center gap-4">
-            {projects.map((project) => (
-              <div key={project.id} className="w-full sm:w-[45%] lg:w-[23%]">
-                <ProjectCard project={project} />
-              </div>
-            ))}
-          </div>
-
+        <div className="flex flex-wrap justify-center gap-4">
+          {projects.map((project) => (
+            <div key={project.id} className="w-full sm:w-[45%] lg:w-[23%]">
+              <ProjectCard project={project} />
+            </div>
+          ))}
+        </div>
 </section>
   )
 }

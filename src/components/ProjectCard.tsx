@@ -1,14 +1,4 @@
-type Project = {
-    id: number
-    title: string
-    type: string
-    image?: string
-    alt?: string
-    github?: string
-    live?: string
-    description: string
-    tech: string[]
-}
+import { Project } from "@/types/project"
 
 export default function ProjectCard({ project } : {project: Project}) {
     const image = project.image
@@ -31,12 +21,18 @@ export default function ProjectCard({ project } : {project: Project}) {
                     className="absolute inset-0 z-10" />
                 )}
 
-                {image && (
-                <img
-                    src={image}
-                    alt={project.alt || ""}
-                    className="w-full h-full object-cover group-hover:scale-105 transition"
-                />
+                {image ? (
+                    <img
+                        src={image}
+                        alt={project.alt || ""}
+                        className="w-full h-full object-cover transition-transform duration-150 delay-75 hover:scale-105"
+                    />
+                ) : (
+                    <div className="w-full h-full flex items-center justify-center opacity-80">
+                        <span className="text-sm text-[#c7b8a5]/90 border border-[#c7b8a5]/45 px-3 py-1 rounded bg-[#c7b8a5]/20">
+                            In Progress
+                        </span>
+                    </div>
                 )}
             </div>
 
