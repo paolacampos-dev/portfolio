@@ -1,4 +1,16 @@
-export default function ProjectCard({ project }) {
+type Project = {
+    id: number
+    title: string
+    type: string
+    image?: string
+    alt?: string
+    github?: string
+    live?: string
+    description: string
+    tech: string[]
+}
+
+export default function ProjectCard({ project } : {project: Project}) {
     const image = project.image
     const live = project.live
     const github = project.github

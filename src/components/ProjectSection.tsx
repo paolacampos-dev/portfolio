@@ -1,6 +1,23 @@
 import ProjectCard from "@/components/ProjectCard"
 
-export default function ProjectSection({ title, projects }) {
+type Project = {
+    id: number
+    title: string
+    type: string
+    image?: string
+    alt?: string
+    github?: string
+    live?: string
+    description: string
+    tech: string[]
+}
+
+type ProjectSectionProps = {
+    title: string
+    projects: Project[]
+}
+
+export default function ProjectSection({ title, projects } : ProjectSectionProps) {
     return (
       <section className="w-full max-w-5xl mx-auto">
 
