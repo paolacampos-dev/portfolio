@@ -37,7 +37,7 @@ export default function ProjectCard({ project } : {project: Project}) {
             </div>
 
             <div className="text-center mt-2">
-                <p className="text-base sm:text-lg text-[#c7b8a5]/85">
+                <p className="text-base sm:text-lg text-[#c7b8a5]">
                 {project.description}
                 </p>
 
