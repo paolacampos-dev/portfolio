@@ -81,26 +81,36 @@ const projectsData: Project[] = [
     {
         id: 8, 
         title: "SitePulse",
-        type: "fullstack",
+        type: "AI",
         image: "",
         alt: "",
         github: "https://github.com/paolacampos-dev/sitepulse",
         live: "",
         description: "AI Site Audits",
-        tech: ["Next.js", "PostgreSQL", "AI"]
+        tech:   ["PageSpeed API", "OpenAI API"]
+    },
+    {
+        id: 9, 
+        title: "DecodeMe",
+        type: "AI",
+        image: "DecodeMe.png",
+        alt: "",
+        github: "",
+        live: "",
+        description: "Natal Chart AI" ,
+        tech: ["Next.js", "Node.js", "OpenAI API"]
     }
 ];
-
 export default projectsData;
 
 /*{
         id: , 
-        title: ,
-        type: ,
-        image: ,
-        alt: ,
-        github: ,
-        live: ,
-        description: ,
+        title: "",
+        type: "" ,
+        image: "" ,
+        alt: "",
+        github: "",
+        live: "",
+        description: "",
         tech: [·]
     },*/

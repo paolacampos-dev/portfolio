@@ -45,3 +45,5 @@ Continue refining UI/UX details
 
 📬 **Contact**
 Feel free to explore the projects or reach out if you’d like to collaborate or work together.
+
+---
