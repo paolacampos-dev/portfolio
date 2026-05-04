@@ -12,10 +12,10 @@ export default function Hero() {
                 <motion.p
                     className="text-[#c7b8a5]/70 tracking-wide text-sm sm:text-base"
                     initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
+                    animate={{ opacity: 0.8, y: 0 }}
                     transition={{ duration: 1, ease: "easeOut" }}
                 >
-                    Full-Stack Developer
+                    FULL-Stack Developer • AI Systems
                 </motion.p>
 
                 <motion.h1
