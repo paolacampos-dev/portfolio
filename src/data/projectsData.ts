@@ -32,7 +32,7 @@ const projectsData: Project[] = [
         github: "https://github.com/paolacampos-dev/nervous-system-gallery",
         live: "https://neuroscope.paolacampos.dev/",
         description: "Interactive Image Gallery",
-        tech: ["REACT", "fetching Wikimedia API"]
+        tech: ["REACT", "Wikimedia API"]
     },
     {
         id: 4, 
