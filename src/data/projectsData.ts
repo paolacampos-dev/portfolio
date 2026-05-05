@@ -82,7 +82,7 @@ const projectsData: Project[] = [
         id: 8, 
         title: "SitePulse",
         type: "AI",
-        image: "SitePulse4.png",
+        image: "SitePulse5.png",
         alt: "SitePulse audit analysis screen with futuristic scanning interface indicating processing in progress",
         github: "https://github.com/paolacampos-dev/sitepulse",
         live: "",
