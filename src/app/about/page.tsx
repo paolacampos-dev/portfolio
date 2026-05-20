@@ -8,28 +8,31 @@ export default function About() {
             </h1>
 
             <p className="mb-4">
-                I am a Full-Stack Web Developer focused on building practical, user-centered web applications with a strong emphasis on structure, clarity, and real-world usability.
+                I am a Full-Stack Web Developer focused on building structured, user-centered digital products that combine clarity, functionality, and real-world usability.
             </p>
 
             <p className="mb-4">
-                My work combines clean interface design with solid backend development, ensuring applications are not only functional but intuitive and easy to use. I work with technologies such as Next.js, React, and PostgreSQL, alongside core web technologies including HTML, CSS, and JavaScript.
-                
+                My journey into development began with front-end fundamentals — HTML, CSS, responsive design — before expanding into JavaScript, React, Next.js, and backend systems. Over time, I became increasingly interested not only in how interfaces look, but in how the systems behind them connect and operate together.
             </p>
 
             <p className="mb-4">
-                I approach development as a complete system — thinking in terms of data flow, architecture, and how each part of an application connects. This includes working with APIs, authentication, database design, and building scalable solutions from end to end.
+                Today, I combine technical structure with thoughtful design.
             </p>
 
             <p className="mb-4">
-                I have a growing focus on integrating AI into applications, designing structured pipelines that combine data, domain knowledge, and controlled AI reasoning to create practical, intelligent tools.
+                I enjoy building applications that feel intuitive, scalable, and purposeful — from clean interfaces and responsive layouts to database architecture, authentication systems, APIs, and full-stack workflows. I approach development as a complete system, thinking carefully about data flow, maintainability, and how each part of an application supports the overall experience.
             </p>
 
             <p className="mb-4">
-                Currently, I am expanding my skills in WordPress and PHP while developing AI-powered projects such as a website diagnostics tool and a natal chart interpretation system. My goal is to build scalable, real-world solutions that deliver clear value.
+                I am particularly interested in AI-powered systems and structured automation, exploring how domain knowledge, data pipelines, and controlled AI reasoning can be combined to create practical and intelligent tools.
             </p>
 
             <p className="mb-4">
-                I am driven by curiosity and continuous improvement — understanding how systems work, refining them, and turning ideas into well-structured digital products.
+                Currently, I’m expanding my knowledge in WordPress and PHP while developing projects such as a website diagnostics platform and an AI-assisted natal chart interpretation system. My goal is to create scalable digital products that combine technical depth with meaningful user experience.
+            </p>
+
+            <p>
+                I am driven by curiosity, continuous learning, and the process of turning complexity into clarity through well-structured digital solutions.
             </p>
             
         </section>
