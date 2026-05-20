@@ -72,7 +72,7 @@ const projectsData: Project[] = [
         id: 7,
         title: "Freelance WP Website ",
         type: "wordpress",
-        image: "WP.png",
+        image: "WP1.png",
         alt: "Homepage of custom WordPress website with modern layout and warm color palette",
         live: "https://paolacampos.com/",
         description: "Custom WordPress Site",
